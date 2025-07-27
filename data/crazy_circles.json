@@ -1,6 +1,6 @@
 {
     "id": 1776,
-    "name": "aaaaaaaaaCrazy Circles",
+    "name": "Crazy Circles",
     "author": "GMDKOMARU",
     "creators": ["GMDKOMARU"],
     "verifier": "GMDKOMARU",
@@ -8,6 +8,23 @@
     "percentToQualify": 59,
     "password": "Free To Copy",
     "records": [
-        
+        {
+            "user": "PashaNanix",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "normalpersonGD",
+            "link": "",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "slayshik",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
