@@ -1,0 +1,36 @@
+{
+    "id": 1154,
+    "name": "xZar",
+    "author": "PashaNanix",
+    "creators": ["PashaNanix"],
+    "verifier": "PashaNanix",
+    "verification": "https://www.youtube.com/watch?v=j-LNELwVsBo",
+    "percentToQualify": 100,
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "GMDKOMARU",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        },
+              {
+            "user": "KirpichNazar",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "StintlerGD",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "normalpersonGD",
+            "link": "",
+            "percent": 100,
+            "hz": 144
+        }
+    ]
+}

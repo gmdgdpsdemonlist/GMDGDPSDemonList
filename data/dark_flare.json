@@ -1,0 +1,24 @@
+{
+    "id": 1082,
+    "name": "Dark Flare",
+    "author": "GMDKOMARU",
+    "creators": ["GMDKOMARU"],
+    "verifier": "GMDKOMARU",
+    "verification": "https://youtu.be/x-IwbDFkpD8",
+    "percentToQualify": 58,
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "PashaNanix",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "StintlerGD",
+            "link": "",
+            "percent": 92,
+            "hz": 60
+        }
+    ]
+}

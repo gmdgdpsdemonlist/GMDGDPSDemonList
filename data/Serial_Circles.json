@@ -1,0 +1,24 @@
+{
+    "id": 2016,
+    "name": "Serial Circles",
+    "author": "GetDown",
+    "creators": ["GetDown", "GMDKOMARU"],
+    "verifier": "GMDKOMARU",
+    "verification": "https://www.youtube.com/watch?v=_66I_oIG5ng",
+    "percentToQualify": 47,
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "StintlerGD",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "normalpersonGD",
+            "link": "",
+            "percent": 47,
+            "hz": 144
+        }
+    ]
+}
