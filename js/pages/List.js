@@ -133,10 +133,10 @@ export default {
           </ul>
           <h2>Records</h2>
           <p v-if="selectedIndexInFullList <= 75">
-            <strong>{{ selectedLevel.percentToQualify }}%</strong> to qualify
+            <strong>{{ selectedLevel.percentToQualify }}%</strong> or better to qualify
           </p>
           <p v-else-if="selectedIndexInFullList <= 150">
-            <strong>100%</strong> to qualify
+            <strong>100%</strong> or better to qualify
           </p>
           <p v-else>This level does not accept new records.</p>
           <table class="records">
@@ -181,20 +181,31 @@ export default {
               </li>
             </ol>
           </template>
-          <h3>List Requirements</h3>
-          <p>Every level must be consistency based.</p>
-          <p>Maximum CPS for your level must not reach or be above 10.</p>
-          <p>There must be clicks/taps in your completion/submission, however you are not allowed to use "Click Sounds" or "Click Sounds Lite" in Geode as they're click sounds, not real clicks.</p>
-          <p>If your level contains inappropriate content (suggestive art, swastikas, slurs) it will not be added.</p>
-          <p>You cannot include spam based parts (applies to the CPS rule) in your level.</p>
-          <p>You're allowed to use FPS Bypass but verifications/completions above 360 FPS or under 60 FPS will not be accepted. This rule is an exception for 2.2 users, as going above 240 FPS will result in the game being locked to 240 FPS.</p>
-          <p>CBF records are allowed for the list, however physics bypass is NOT allowed, but you can play in 2.1 to get up to 360 FPS.</p>
-          <p>Cube Challenges are not allowed to be beaten with CBF, but with the FPS required for the level.</p>
-          <p>NoClip Accuracy completions are ABSOLUTELY not allowed, as it is considered cheating and is an advantage to make the level "easier".</p>
-          <p>Alternating levels will not be allowed on the list as a recent submission or record, exception being that you're allowed to alternate for only levels, such as "Diamond Blade End x20", "Wave consistency inv" and "Scorpion".</p>
-          <p>You are allowed to use Show Hitboxes on death, but your record will be denied if you use it for levels that are hard to see or are invisible, such as "haruna challenge", "Psbpm v2", "Alec Challenge", "tims time", "Drunk Punch", "Wave consistency inv" and "Invisible eight".</p>
-          <p>If you were banned from the server due to a reason or few, you are still allowed to submit your records and levels by directly messaging list staff (pixelfactorial, galbereal, blightedcoconut_05273, sadisyourlife. or saturn_55004).</p>
-          <p>Once a level falls onto the Legacy List, we no longer accept records for them.</p>
+                    <h3>List Requirements</h3>
+                    <p>
+                        Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps).
+                    </p>
+                    <p>
+                        Achieved the record on the level that is listed on the site - please check the level ID before you submit a record!
+                    </p>
+                    <p>
+                        Have either source audio or clicks/taps in the video. Edited audio only does not count.
+                    </p>
+                    <p>
+                        If possible, have cheat indicator, CPS and Clock.
+                    </p>
+                    <p>
+                        If possible use the "Toggle Percentage" Geode mod. It makes it easier for us to accept your records.
+                    </p>
+                    <p>
+                        The recording must also show the player hit the endwall and show the end screen, or the completion will be invalidated.
+                    </p>
+                    <p>
+                        Do not use secret routes or bug routes.
+                    </p>
+                    <p>
+                        Please play on the original copy of the level, unless you're verifying it.
+                    </p>
         </div>
       </div>
     </main>
