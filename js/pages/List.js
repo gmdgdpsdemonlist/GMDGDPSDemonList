@@ -122,7 +122,7 @@ export default {
               <div class="type-title-sm">Points when completed</div>
               <p>
                 {{
-                  score(selected + 1, 100, selectedLevel.percentToQualify)
+                  score(getOriginalRank(selectedLevel), 100, selectedLevel.percentToQualify)
                 }}
               </p>
             </li>
