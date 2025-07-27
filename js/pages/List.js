@@ -130,6 +130,10 @@ export default {
               <div class="type-title-sm">ID</div>
               <p>{{ selectedLevel.id }}</p>
             </li>
+            <li>
+              <div class="type-title-sm">Password</div>
+              <p>{{ level.password || 'Free to Copy' }}</p>
+            </li>
           </ul>
           <h2>Records</h2>
           <p v-if="selectedIndexInFullList <= 75">
