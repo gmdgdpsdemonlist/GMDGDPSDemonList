@@ -100,7 +100,7 @@ export default {
                   <p>#{{ score.rank }}</p>
                 </td>
                 <td class="level">
-                  <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
+                  <p class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</p>
                 </td>
                 <td class="score">
                   <p>+{{ localize(score.score) }}</p>
@@ -116,7 +116,7 @@ export default {
                   <p>#{{ score.rank }}</p>
                 </td>
                 <td class="level">
-                  <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
+                  <p class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</p>
                 </td>
                 <td class="score">
                   <p>+{{ localize(score.score) }}</p>
@@ -132,9 +132,9 @@ export default {
                   <p>#{{ score.rank }}</p>
                 </td>
                 <td class="level">
-                  <a class="type-label-lg" target="_blank" :href="score.link">
+                  <p class="type-label-lg" target="_blank" :href="score.link">
                     {{ score.percent }}% {{ score.level }}
-                  </a>
+                  </p>
                 </td>
                 <td class="score">
                   <p>+{{ localize(score.score) }}</p>
