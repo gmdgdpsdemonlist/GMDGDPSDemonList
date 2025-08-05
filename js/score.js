@@ -37,11 +37,19 @@ export function score(rank, percent, minPercent) {
 }
 
 export function round(num) {
-    // If the input is a number, format it first to string
-    const str = typeof num === 'number'
-        ? num.toLocaleString('fr-FR')
-        : String(num);
-
-    // Split at the comma and return the first part (before the decimal)
-    return str.split(',')[0];
+    if (!('' + num).includes('e')) {
+        return +(Math.round(num + 'e+' + scale) + 'e-' + scale);
+    } else {
+        var arr = ('' + num).split('e');
+        var sig = '';
+        if (+arr[1] + scale > 0) {
+            sig = '+';
+        }
+        return +(
+            Math.round(+arr[0] + 'e' + sig + (+arr[1] + scale)) +
+            'e-' +
+            scale
+        );
+    }
 }
+
