@@ -38,7 +38,7 @@ export function score(rank, percent, minPercent) {
 
 export function round(num) {
     if (!('' + num).includes('e')) {
-        return Math.floor(num).toLocaleString('fr-FR'); // e.g., "3 405"
+        return +(Math.round(num + 'e+' + scale) + 'e-' + scale);
     } else {
         var arr = ('' + num).split('e');
         var sig = '';
