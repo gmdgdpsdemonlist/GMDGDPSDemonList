@@ -73,7 +73,7 @@ export default {
                 </p>
               </td>
               <td class="total">
-                <p class="type-label-lg">{{ localize(entry.total) }}</p>
+                <p class="type-label-lg">{{ entry.total }}</p>
               </td>
               <td class="user" :class="{ 'active': selected === i }">
                 <button @click="selected = i">
