@@ -3,17 +3,11 @@
     "name": "GNEV",
     "author": "GMDKOMARU",
     "creators": ["GMDKOMARU, GUSWAYKA"],
-    "verifier": "GMDKOMARU",
+    "verifier": "PashaNanix",
     "verification": "https://youtu.be/_gtbLTe52U4",
     "percentToQualify": 56,
     "password": "Free To Copy",
     "records": [
-        {
-            "user": "PashaNanix",
-            "link": "",
-            "percent": 100,
-            "hz": 60
-        },
         {
             "user": "StintlerGD",
             "link": "",
