@@ -1,0 +1,30 @@
+{
+    "id": 1035,
+    "name": "Crazy Circles",
+    "author": "GMDKOMARU",
+    "creators": ["GMDKOMARU"],
+    "verifier": "GMDKOMARU",
+    "verification": "https://www.youtube.com/watch?v=iT53mZGxUSQ",
+    "percentToQualify": 59,
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "PashaNanix",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "normalpersonGD",
+            "link": "",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "slayshik",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}
