@@ -3,16 +3,10 @@
     "name": "KEPPU",
     "author": "GMDKOMARU",
     "creators": ["GMDKOMARU"],
-    "verifier": "GMDKOMARU",
+    "verifier": "StintlerGD",
     "verification": "https://www.youtube.com/watch?v=szDsW-URaMA",
     "percentToQualify": 56,
     "password": "Free To Copy",
     "records": [
-        {
-            "user": "StintlerGD",
-            "link": "",
-            "percent": 100,
-            "hz": 60
-        }
     ]
 }
