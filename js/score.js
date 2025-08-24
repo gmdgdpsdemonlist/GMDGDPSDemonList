@@ -33,10 +33,10 @@ export function score(rank, percent, minPercent) {
     newscore = Number(newscore) || 0; // convert back to number safely
 
     if (percent != 100) {
-        return round(newscore - newscore / 3);
+        return newscore - newscore / 3;
     }
 
-    return Math.max(round(newscore), 0);
+    return newscore;
 }
 
 export function round(num) {
