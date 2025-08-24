@@ -30,9 +30,13 @@ export function score(rank, percent, minPercent) {
     score = Math.max(0, score);
 
     if (percent != 100) {
+        let newscore = round(score - score / 3);
+        console.log("Hmmm1", newscore);
         return round(score - score / 3);
     }
 
+    let newscore = Math.max(round(score), 0);
+    console.log("Hmmm2", newscore);
     return Math.max(round(score), 0);
 }
 
