@@ -73,7 +73,7 @@ export default {
                 </p>
               </td>
               <td class="total">
-                <p class="type-label-lg">{{ entry.total }}</p>
+                <p class="type-label-lg">{{ localize(entry.total) }}</p>
               </td>
               <td class="user" :class="{ 'active': selected === i }">
                 <button @click="selected = i">
@@ -103,7 +103,7 @@ export default {
                   <p class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</p>
                 </td>
                 <td class="score">
-                  <p>+{{ score.score }}</p>
+                  <p>+{{ localize(score.score) }}</p>
                 </td>
               </tr>
             </table>
@@ -119,7 +119,7 @@ export default {
                   <p class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</p>
                 </td>
                 <td class="score">
-                  <p>+{{ score.score }}</p>
+                  <p>+{{ localize(score.score) }}</p>
                 </td>
               </tr>
             </table>
@@ -137,7 +137,7 @@ export default {
                   </p>
                 </td>
                 <td class="score">
-                  <p>+{{ score.score }}</p>
+                  <p>+{{ localize(score.score) }}</p>
                 </td>
               </tr>
             </table>
