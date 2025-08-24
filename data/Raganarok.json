@@ -3,17 +3,11 @@
     "name": "Raganarok",
     "author": "GMDKOMARU",
     "creators": ["GMDKOMARU"],
-    "verifier": "GMDKOMARU",
+    "verifier": "PashaNanix",
     "verification": "https://www.youtube.com/watch?v=ivmEYbc-D7g&t=1s",
     "percentToQualify": 100,
     "password": "Free To Copy",
     "records": [
-        {
-            "user": "PashaNanix",
-            "link": "",
-            "percent": 100,
-            "hz": 60
-        },
         {
             "user": "normalpersonGD",
             "link": "",
