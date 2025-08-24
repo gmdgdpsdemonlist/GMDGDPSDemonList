@@ -90,7 +90,7 @@ export default {
         <div class="player-container" v-if="selectedEntry">
           <div class="player">
             <h1>#{{ selectedRank }} {{ selectedEntry.user }}</h1>
-            <h3>{{ localize(selectedEntry.total) }}</h3>
+            <h3>{{ localize(selectedEntry.total) }} Points</h3>
             <h2 v-if="selectedEntry.verified && selectedEntry.verified.length > 0">
               Verified ({{ selectedEntry.verified.length }})
             </h2>
