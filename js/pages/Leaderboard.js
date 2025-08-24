@@ -119,7 +119,7 @@ export default {
                   <p class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</p>
                 </td>
                 <td class="score">
-                  <p>+{{ localize(score.score) }}</p>
+                  <p>+{{ score.score }}</p>
                 </td>
               </tr>
             </table>
@@ -137,7 +137,7 @@ export default {
                   </p>
                 </td>
                 <td class="score">
-                  <p>+{{ localize(score.score) }}</p>
+                  <p>+{{ score.score }}</p>
                 </td>
               </tr>
             </table>
