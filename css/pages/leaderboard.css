@@ -42,6 +42,7 @@
 .page-leaderboard .board .total {
     padding: 1rem;
     text-align: end;
+    white-space: nowrap;
 }
 .page-leaderboard .board .user {
     width: 100%;
@@ -84,6 +85,7 @@
 .page-leaderboard .player .table .rank p,
 .page-leaderboard .player .table .score p {
     text-align: end;
+    white-space: nowrap;
 }
 .page-leaderboard .player .table .level {
     width: 100%;
