@@ -29,7 +29,8 @@ export function score(rank, percent, minPercent) {
 
     score = Math.max(0, score);
 
-    let newscore = score.slice(0, -4);
+    let newscore = String(score).slice(0, -4);
+    newscore = Number(newscore) || 0; // convert back to number safely
 
     if (percent != 100) {
         return round(newscore - newscore / 3);
