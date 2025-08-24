@@ -29,11 +29,13 @@ export function score(rank, percent, minPercent) {
 
     score = Math.max(0, score);
 
+    let newscore = score.slice(0, -4);
+
     if (percent != 100) {
-        return round(score - score / 3);
+        return round(newscore - newscore / 3);
     }
 
-    return Math.max(round(score), 0);
+    return Math.max(round(newscore), 0);
 }
 
 export function round(num) {
